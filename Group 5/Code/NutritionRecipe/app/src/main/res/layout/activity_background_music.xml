@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray"
+    tools:context=".BackgroundMusicActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#0099FF"
+        android:elevation="4dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Music"
+            android:textSize="30dp"
+            android:textColor="@color/black"
+            android:layout_gravity="center"
+            />
+
+        <Button
+            android:id="@+id/arrow_background_music"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:background="@drawable/back_arrow"
+            android:layout_gravity="left"
+            />
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <TextView
+        android:id="@+id/text_background_music"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="70dp"
+        android:text="Background Music"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:paddingLeft="20dp"
+        android:gravity="left|center_vertical"
+        android:background="@color/white"
+        android:textAllCaps="false"
+        tools:ignore="RtlCompat" />
+
+    <ImageView
+        android:id="@+id/playbtn"
+        android:onClick="PlaySound1"
+        android:layout_width="50dp"
+        android:layout_height="60dp"
+        android:src="@drawable/ic_play"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="280dp"/>
+
+    <ImageView
+        android:id="@+id/stopbtn"
+        android:onClick="StopSound1"
+        android:layout_width="50dp"
+        android:layout_height="60dp"
+        android:src="@drawable/ic_stop"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="340dp"/>
+
+    <TextView
+        android:id="@+id/text_fast_love"
+        android:layout_width="fill_parent"
+        android:layout_below="@+id/text_background_music"
+        android:layout_height="60dp"
+        android:text="Fast Love"
+        android:textColor="@color/black"
+        android:layout_marginTop="15dp"
+        android:textSize="20dp"
+        android:textAllCaps="false"
+        android:paddingLeft="20dp"
+        android:gravity="left|center_vertical"
+        android:background="@color/white"
+        tools:ignore="RtlCompat"/>
+
+    <ImageView
+        android:id="@+id/playbtn2"
+        android:onClick="PlaySound2"
+        android:layout_width="50dp"
+        android:layout_height="60dp"
+        android:src="@drawable/ic_play"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="280dp"
+        android:layout_below="@id/text_background_music"/>
+
+    <ImageView
+        android:id="@+id/stopbtn2"
+        android:onClick="StopSound2"
+        android:layout_width="50dp"
+        android:layout_height="60dp"
+        android:src="@drawable/ic_stop"
+        android:layout_marginTop="15dp"
+        android:layout_below="@id/text_background_music"
+        android:layout_marginLeft="340dp"/>
+
+    <TextView
+        android:id="@+id/text_Nam"
+        android:layout_width="fill_parent"
+        android:layout_below="@+id/text_fast_love"
+        android:layout_height="60dp"
+        android:text="Song of Nam"
+        android:textColor="@color/black"
+        android:layout_marginTop="15dp"
+        android:textSize="20dp"
+        android:textAllCaps="false"
+        android:paddingLeft="20dp"
+        android:gravity="left|center_vertical"
+        android:background="@color/white"
+        tools:ignore="RtlCompat"/>
+
+    <ImageView
+        android:id="@+id/playbtnNam"
+        android:onClick="PlaySoundNam"
+        android:layout_width="50dp"
+        android:layout_height="60dp"
+        android:src="@drawable/ic_play"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="280dp"
+        android:layout_below="@id/text_fast_love"/>
+
+    <ImageView
+        android:id="@+id/stopbtnNam"
+        android:onClick="StopSoundNam"
+        android:layout_width="50dp"
+        android:layout_height="60dp"
+        android:src="@drawable/ic_stop"
+        android:layout_marginTop="15dp"
+        android:layout_below="@id/text_fast_love"
+        android:layout_marginLeft="340dp"/>
+
+    <TextView
+        android:id="@+id/text_Nghia"
+        android:layout_width="fill_parent"
+        android:layout_below="@+id/text_Nam"
+        android:layout_height="60dp"
+        android:text="Song of Nghĩa"
+        android:textColor="@color/black"
+        android:layout_marginTop="15dp"
+        android:textSize="20dp"
+        android:textAllCaps="false"
+        android:paddingLeft="20dp"
+        android:gravity="left|center_vertical"
+        android:background="@color/white"
+        tools:ignore="RtlCompat"/>
+
+    <ImageView
+        android:id="@+id/playbtnNghia"
+        android:onClick="PlaySoundNghia"
+        android:layout_width="50dp"
+        android:layout_height="60dp"
+        android:src="@drawable/ic_play"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="280dp"
+        android:layout_below="@id/text_Nam"/>
+
+    <ImageView
+        android:id="@+id/stopbtnNghia"
+        android:onClick="StopSoundNghia"
+        android:layout_width="50dp"
+        android:layout_height="60dp"
+        android:src="@drawable/ic_stop"
+        android:layout_marginTop="15dp"
+        android:layout_below="@id/text_Nam"
+        android:layout_marginLeft="340dp"/>
+
+    <TextView
+        android:id="@+id/text_Son"
+        android:layout_width="fill_parent"
+        android:layout_below="@+id/text_Nghia"
+        android:layout_height="60dp"
+        android:text="Song of Sơn"
+        android:textColor="@color/black"
+        android:layout_marginTop="15dp"
+        android:textSize="20dp"
+        android:textAllCaps="false"
+        android:paddingLeft="20dp"
+        android:gravity="left|center_vertical"
+        android:background="@color/white"
+        tools:ignore="RtlCompat"/>
+
+    <ImageView
+        android:id="@+id/playbtnSon"
+        android:onClick="PlaySoundSon"
+        android:layout_width="50dp"
+        android:layout_height="60dp"
+        android:src="@drawable/ic_play"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="280dp"
+        android:layout_below="@id/text_Nghia"/>
+
+    <ImageView
+        android:id="@+id/stopbtnSon"
+        android:onClick="StopSoundSon"
+        android:layout_width="50dp"
+        android:layout_height="60dp"
+        android:src="@drawable/ic_stop"
+        android:layout_marginTop="15dp"
+        android:layout_below="@id/text_Nghia"
+        android:layout_marginLeft="340dp"/>
+
+    <TextView
+        android:id="@+id/text_Trung"
+        android:layout_width="fill_parent"
+        android:layout_below="@+id/text_Son"
+        android:layout_height="60dp"
+        android:text="Song of Trung"
+        android:textColor="@color/black"
+        android:layout_marginTop="15dp"
+        android:textSize="20dp"
+        android:textAllCaps="false"
+        android:paddingLeft="20dp"
+        android:gravity="left|center_vertical"
+        android:background="@color/white"
+        tools:ignore="RtlCompat"/>
+
+    <ImageView
+        android:id="@+id/playbtnTrung"
+        android:onClick="PlaySoundTrung"
+        android:layout_width="50dp"
+        android:layout_height="60dp"
+        android:src="@drawable/ic_play"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="280dp"
+        android:layout_below="@id/text_Son"/>
+
+    <ImageView
+        android:id="@+id/stopbtnTrung"
+        android:onClick="StopSoundTrung"
+        android:layout_width="50dp"
+        android:layout_height="60dp"
+        android:src="@drawable/ic_stop"
+        android:layout_marginTop="15dp"
+        android:layout_below="@id/text_Son"
+        android:layout_marginLeft="340dp"/>
+
+    <TextView
+        android:id="@+id/text_Huy"
+        android:layout_width="fill_parent"
+        android:layout_below="@+id/text_Trung"
+        android:layout_height="60dp"
+        android:text="Song of Huy"
+        android:textColor="@color/black"
+        android:layout_marginTop="15dp"
+        android:textSize="20dp"
+        android:textAllCaps="false"
+        android:paddingLeft="20dp"
+        android:gravity="left|center_vertical"
+        android:background="@color/white"
+        tools:ignore="RtlCompat"/>
+
+    <ImageView
+        android:id="@+id/playbtnHuy"
+        android:onClick="PlaySoundHuy"
+        android:layout_width="50dp"
+        android:layout_height="60dp"
+        android:src="@drawable/ic_play"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="280dp"
+        android:layout_below="@id/text_Trung"/>
+
+    <ImageView
+        android:id="@+id/stopbtnHuy"
+        android:onClick="StopSoundHuy"
+        android:layout_width="50dp"
+        android:layout_height="60dp"
+        android:src="@drawable/ic_stop"
+        android:layout_marginTop="15dp"
+        android:layout_below="@id/text_Trung"
+        android:layout_marginLeft="340dp"/>
+
+    <TextView
+        android:id="@+id/text_Vinh"
+        android:layout_width="fill_parent"
+        android:layout_below="@+id/text_Huy"
+        android:layout_height="60dp"
+        android:text="Song of Vinh"
+        android:textColor="@color/black"
+        android:layout_marginTop="15dp"
+        android:textSize="20dp"
+        android:textAllCaps="false"
+        android:paddingLeft="20dp"
+        android:gravity="left|center_vertical"
+        android:background="@color/white"
+        tools:ignore="RtlCompat"/>
+
+    <ImageView
+        android:id="@+id/playbtnVinh"
+        android:onClick="PlaySoundVinh"
+        android:layout_width="50dp"
+        android:layout_height="60dp"
+        android:src="@drawable/ic_play"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="280dp"
+        android:layout_below="@id/text_Huy"/>
+
+    <ImageView
+        android:id="@+id/stopbtnVinh"
+        android:onClick="StopSoundVinh"
+        android:layout_width="50dp"
+        android:layout_height="60dp"
+        android:src="@drawable/ic_stop"
+        android:layout_marginTop="15dp"
+        android:layout_below="@id/text_Huy"
+        android:layout_marginLeft="340dp"/>
+
+</RelativeLayout>

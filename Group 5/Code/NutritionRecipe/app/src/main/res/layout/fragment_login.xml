@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?> <!--DAY LA FRAME 1-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".LoginFragment"
+    android:background="#0099FF"
+    android:gravity="center"
+    android:orientation="vertical"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Nutrition Recipe"
+        android:textColor="@color/white"
+        android:textSize="50dp" />
+
+    <Button
+        android:id="@+id/signUp"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/my_border_button2"
+        android:backgroundTint="@color/white"
+        android:text="Sign up"
+        android:textColor="#0099FF"
+        android:textAllCaps="false"
+        android:textSize="25dp"
+        android:translationY="280dp"/>
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/login"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/my_border_button2"
+        android:backgroundTint="#0099FF"
+        android:text="Log in"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:textSize="25dp"
+        android:translationY="280dp" />
+
+</LinearLayout>

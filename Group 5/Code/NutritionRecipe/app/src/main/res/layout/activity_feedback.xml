@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?> <!--    DAY LA FRAME 13-->
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".FeedbackActivity">
+
+    <include layout="@layout/toolbar_feedback"
+        android:id="@+id/tool"
+        />
+
+    <EditText
+        android:id="@+id/text_feedback"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="170dp"
+        android:layout_width="380dp"
+        android:layout_height="400dp"
+        android:gravity="top"
+        android:hint="Write here..."
+        android:paddingLeft="10dp"
+        android:maxLines="100"
+        android:inputType="textMultiLine"
+        android:textColor="@color/black"
+        android:layout_weight="1"
+        android:background="@color/gray"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16.5dp"
+        android:layout_marginTop="130dp"
+        android:text="Your Feedback:"
+        android:textColor="@color/black"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/upload_feedback"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="580dp"
+        android:layout_marginRight="18dp"
+        android:background="@drawable/ic_upload"
+        android:paddingLeft="20dp" />
+
+</RelativeLayout>

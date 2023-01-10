@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?> <!--    DAY LA FRAME 9-->
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray"
+    tools:context=".SettingsActivity">
+
+    <include layout="@layout/toolbar_settings"
+        android:id="@+id/tool"
+        />
+
+    <Button
+        android:id="@+id/aboutus"
+        android:layout_width="fill_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="70dp"
+        android:background="@color/white"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="20dp"
+        android:text="About Us"
+        android:textSize="20dp"
+        android:textAllCaps="false"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/contact"
+        android:layout_width="fill_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="160dp"
+        android:background="@color/white"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="20dp"
+        android:text="Contact"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/feedback"
+        android:layout_width="fill_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="250dp"
+        android:background="@color/white"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="20dp"
+        android:text="Feedback"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/credits"
+        android:layout_width="fill_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="340dp"
+        android:background="@color/white"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="20dp"
+        android:text="Credits"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/delete_account"
+        android:layout_width="fill_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="600dp"
+        android:background="@color/white"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="20dp"
+        android:text="Delete Account"
+        android:textSize="20dp"
+        android:textAllCaps="false"
+        android:textColor="#FF453A" />
+
+</RelativeLayout>

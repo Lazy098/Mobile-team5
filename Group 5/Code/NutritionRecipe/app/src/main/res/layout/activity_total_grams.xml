@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?> <!--    DAY LA FRAME 17-->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TotalGramsActivity"
+    android:background="@color/gray"> <!--context để tương ứng nhá, t ví dụ thoi-->
+
+    <TextView
+        android:id="@+id/text_fat"
+        android:layout_marginTop="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Fat"
+        android:textSize="16dp"
+        android:paddingLeft="10dp"
+        android:gravity="left|center_vertical"
+        android:textColor="@color/black"
+        android:background="@color/white"/>
+
+    <TextView
+        android:id="@+id/text_saturated"
+        android:layout_marginTop="170dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Saturated"
+        android:textSize="16dp"
+        android:paddingLeft="10dp"
+        android:textColor="@color/black"
+        android:background="@color/white"
+        android:gravity="left|center_vertical"/>
+
+    <TextView
+        android:id="@+id/text_polyunsaturated"
+        android:layout_marginTop="240dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Polyunsaturated"
+        android:textSize="16dp"
+        android:paddingLeft="10dp"
+        android:textColor="@color/black"
+        android:background="@color/white"
+        android:gravity="left|center_vertical"/>
+
+    <TextView
+        android:id="@+id/text_monounsaturated"
+        android:layout_marginTop="310dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Monounsaturated"
+        android:textSize="16dp"
+        android:paddingLeft="10dp"
+        android:gravity="left|center_vertical"
+        android:textColor="@color/black"
+        android:background="@color/white"/>
+
+    <TextView
+        android:id="@+id/text_total_grams"
+        android:layout_marginTop="380dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Total"
+        android:textSize="16dp"
+        android:paddingLeft="10dp"
+        android:gravity="left|center_vertical"
+        android:textColor="#0099FF"
+        android:background="@color/white"/>
+
+    <TextView
+        android:id="@+id/text_amount_fat"
+        android:layout_marginTop="100dp"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:text="0 g"
+        android:textSize="16dp"
+        android:gravity="right|center_vertical"
+        android:textColor="@color/black"
+        android:layout_marginLeft="300dp"
+        android:padding="15dp"
+        android:background="@color/white"/>
+
+    <TextView
+        android:id="@+id/text_amount_saturated"
+        android:layout_marginTop="170dp"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:text="0 g"
+        android:textSize="16dp"
+        android:gravity="right|center_vertical"
+        android:padding="15dp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="300dp"
+        android:background="@color/white"/>
+
+    <TextView
+        android:id="@+id/text_amount_polyunsaturated"
+        android:layout_marginTop="240dp"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:text="0 g"
+        android:textSize="16dp"
+        android:gravity="right|center_vertical"
+        android:padding="15dp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="300dp"
+        android:background="@color/white"/>
+
+    <TextView
+        android:id="@+id/text_amount_monounsaturated"
+        android:layout_marginTop="310dp"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:text="0 g"
+        android:textSize="16dp"
+        android:gravity="right|center_vertical"
+        android:textColor="@color/black"
+        android:padding="15dp"
+        android:layout_marginLeft="300dp"
+        android:background="@color/white"/>
+
+    <TextView
+        android:id="@+id/text_amount_total_grams"
+        android:layout_marginTop="380dp"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:text="0 g"
+        android:textSize="16dp"
+        android:gravity="right|center_vertical"
+        android:padding="15dp"
+        android:textColor="#0099FF"
+        android:layout_marginLeft="300dp"
+        android:background="@color/white"/>
+
+</FrameLayout>

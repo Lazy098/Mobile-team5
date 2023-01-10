@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?> <!--    DAY LA FRAME 8-->
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray"
+    tools:context=".NutritionActivity">
+
+    <include layout="@layout/toolbar_nutrition_food"
+        android:id="@+id/tool"
+        />
+
+    <TextView
+        android:id="@+id/text_calories_food"
+        android:layout_marginTop="70dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Calories"
+        android:textSize="25dp"
+        android:paddingLeft="10dp"
+        android:textColor="@color/black"
+        android:gravity="center_vertical"
+        android:background="@color/white"/>
+
+    <TextView
+        android:id="@+id/text_fat_food"
+        android:layout_marginTop="140dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Fat"
+        android:textSize="25dp"
+        android:paddingLeft="10dp"
+        android:textColor="@color/black"
+        android:gravity="center_vertical"
+        android:background="@color/white"/>
+
+    <TextView
+        android:id="@+id/text_saturated_food"
+        android:layout_marginTop="210dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Saturated"
+        android:textSize="25dp"
+        android:paddingLeft="10dp"
+        android:textColor="@color/black"
+        android:gravity="center_vertical"
+        android:background="@color/white"/>
+
+    <TextView
+        android:id="@+id/text_polyunsaturated_food"
+        android:layout_marginTop="280dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Polyunsaturated"
+        android:textSize="25dp"
+        android:paddingLeft="10dp"
+        android:textColor="@color/black"
+        android:gravity="center_vertical"
+        android:background="@color/white"/>
+
+    <TextView
+        android:id="@+id/text_monounsaturated_food"
+        android:layout_marginTop="350dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Monounsaturated"
+        android:textSize="25dp"
+        android:paddingLeft="10dp"
+        android:textColor="@color/black"
+        android:gravity="center_vertical"
+        android:background="@color/white"/>
+
+    <TextView
+        android:id="@+id/text_amount_calories_food"
+        android:layout_marginTop="70dp"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:text="0"
+        android:textSize="25dp"
+        android:textColor="@color/black"
+        android:gravity="right|center_vertical"
+        android:layout_marginLeft="300dp"
+        android:background="@color/white"/>
+
+    <TextView
+        android:id="@+id/text_amount_fat_food"
+        android:layout_marginTop="140dp"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:text="0 g"
+        android:textSize="25dp"
+        android:textColor="@color/black"
+        android:gravity="right|center_vertical"
+        android:layout_marginLeft="300dp"
+        android:background="@color/white"/>
+
+    <TextView
+        android:id="@+id/text_amount_saturated_food"
+        android:layout_marginTop="210dp"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:text="0 g"
+        android:textSize="25dp"
+        android:textColor="@color/black"
+        android:gravity="right|center_vertical"
+        android:layout_marginLeft="300dp"
+        android:background="@color/white"/>
+
+    <TextView
+        android:id="@+id/text_amount_polyunsaturated_food"
+        android:layout_marginTop="280dp"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:text="0 g"
+        android:textSize="25dp"
+        android:textColor="@color/black"
+        android:gravity="right|center_vertical"
+        android:layout_marginLeft="300dp"
+        android:background="@color/white"/>
+
+    <TextView
+        android:id="@+id/text_amount_monosaturated_food"
+        android:layout_marginTop="350dp"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:text="0 g"
+        android:textSize="25dp"
+        android:textColor="@color/black"
+        android:gravity="right|center_vertical"
+        android:layout_marginLeft="300dp"
+        android:background="@color/white"/>
+
+</RelativeLayout>

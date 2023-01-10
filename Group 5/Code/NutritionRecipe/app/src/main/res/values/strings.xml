@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Nutrition Recipe</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="sex">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <string name="term_of_service"><b>IDENTIFICATION:</b> Guests are required to make reservations in the full name that is listed on his/her government document they will use for travel. If you need to make any changes to a name after travel documents have been issued, clients will be responsible for all name change fees, if applicable.
+
+    \n
+    \n<b>PAYMENTS:</b> Our merchant account is with Square. This will allow our clients to make payments using major credit cards.  No other form of payment is accepted at this time.
+
+    \n
+    \n<b>REFUNDS:</b> All payments to Passion Getaways are non-refundable and non-transferable. This is because Passion Getaways has contractual agreements with hotels, airlines and other vendors that will not allow us to obtain any refunds. This way we can keep our package prices competitive and allow you to make monthly payments on your vacation.
+
+    \n
+    \n<b>ROOMMATE MATCHING:</b> Roommate matching is available for our International Tours only. You will be matched with a roommate once you have paid more than 75% of the balance of your travel reservations and provided the person you will be matched with has also paid 75% of his/her balance. After you have submitted a profile and when 75% of your reservation has been paid, you will begin to receive email notifications from Passion Getaways with the name, email address, and profile of other solo travelers on your tour that have also expressed an interest in finding a roommate. Your information will, in turn, be provided to those same solo travelers. You will have two weeks to select to roommate and notify Passion Getaways.
+
+    </string>
+</resources>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?><!--    DAY LA FRAME 14-->
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".ContactActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#0099FF"
+        android:elevation="4dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contact"
+            android:textSize="30dp"
+            android:textColor="@color/black"
+            android:layout_gravity="center"
+            />
+
+        <Button
+            android:id="@+id/arrow_contact"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:background="@drawable/back_arrow"
+            android:layout_gravity="left"
+            />
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <TextView
+        android:id="@+id/contacts1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="1. Lesor Eatsuki - BI11-110.\n Phone number: 0987654321"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="80dp"
+        />
+
+    <TextView
+        android:id="@+id/contacts2"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="2. JSCreep (a.k.a 2nd nilou's daddy) - BI11-195.\n Phone number: 0908070605"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_below="@id/contacts1"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/contacts3"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="3. KannaUwU - BI11-198.\n Phone number: 0908070605"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_below="@id/contacts2"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/contacts4"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="4. Beo Hong Son - BI11-236.\n Phone number: 0908070605"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_below="@id/contacts3"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/contacts5"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="5. Luck chúa - BI11-273.\n Phone number: 0908070605"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_below="@id/contacts4"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/contacts6"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="6. El Nino ❤ - BI11-286.\n Phone number: 0908070605"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_below="@id/contacts5"
+        tools:ignore="HardcodedText" />
+</RelativeLayout>

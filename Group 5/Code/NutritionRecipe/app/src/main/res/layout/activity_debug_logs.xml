@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?> <!--DAY LA FRAME 19->20-->
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray"
+    tools:context=".LoginActivity">
+
+    <include layout="@layout/toolbar_debuglogs"
+        android:id="@+id/tool"
+        />
+
+    <CheckBox
+        android:id="@+id/checkbox_debug_logs"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="70dp"
+        android:paddingLeft="10dp"
+        android:text="Debug Logs"
+        android:textSize="30dp"
+        android:layoutDirection="rtl"
+        android:background="@color/white"
+        android:textColor="@color/black"
+        android:checked="false"/>
+
+    <Button
+        android:id="@+id/btn_clear_logs"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="140dp"
+        android:background="@color/white"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="10dp"
+        android:text="Clear Logs"
+        android:textSize="30dp"
+        android:textAllCaps="false"/>
+
+</RelativeLayout>

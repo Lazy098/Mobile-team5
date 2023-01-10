@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?> <!--    DAY LA FRAME 12-->
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".CreditActivity">
+
+    <androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#0099FF"
+        android:elevation="4dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Credits"
+            android:textSize="30dp"
+            android:textColor="@color/black"
+            android:layout_gravity="center"
+            />
+
+        <Button
+            android:id="@+id/arrow_credits"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:background="@drawable/back_arrow"
+            android:layout_gravity="left"
+            />
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <TextView
+        android:id="@+id/Credits1"
+        android:layout_marginTop="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Layout:\n Phùng Gia Huy\n Nguyễn Hoài Nam\n Hoàng Đức Nghĩa\n Bùi Hồng Sơn\n Nguyễn Đăng Trung\n Nguyễn Xuân Vinh"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/Credits2"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Attribute to group:\n Phùng Gia Huy\n Nguyễn Hoài Nam\n Hoàng Đức Nghĩa\n Bùi Hồng Sơn\n Nguyễn Đăng Trung\n Nguyễn Xuân Vinh"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_below="@id/Credits1"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/Credits3"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Director, the most handsome man:\n Nguyễn Xuân Vinh"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_below="@id/Credits2"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/Credits4"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Siu toàn thời gian:\n Phùng Gia Huy"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_below="@id/Credits3"
+        tools:ignore="HardcodedText" />
+
+</RelativeLayout>

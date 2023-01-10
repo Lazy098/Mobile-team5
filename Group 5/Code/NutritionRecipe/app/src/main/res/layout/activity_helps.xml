@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?> <!--    DAY LA FRAME 18-->
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray"
+    tools:context=".HelpsActivity">
+
+    <include layout="@layout/toolbar_helps"
+        android:id="@+id/tool"
+        />
+
+    <Button
+        android:id="@+id/btn_debug_logs"
+        android:layout_width="fill_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="70dp"
+        android:background="@color/white"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="20dp"
+        android:text="Debug logs"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/btn_faq_s"
+        android:layout_width="fill_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="160dp"
+        android:background="@color/white"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="20dp"
+        android:text="FAQs"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/btn_term_of_service"
+        android:layout_width="fill_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="250dp"
+        android:background="@color/white"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="20dp"
+        android:text="Term of Service"
+        android:textSize="20dp"
+        android:textAllCaps="false"
+        android:textColor="@color/black" />
+
+</RelativeLayout>

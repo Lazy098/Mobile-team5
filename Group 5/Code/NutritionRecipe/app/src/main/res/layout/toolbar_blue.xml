@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#0099FF"
+    android:elevation="4dp"
+    >
+
+    <Button
+        android:id="@+id/menu_btn"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:background="@drawable/ic_menu"
+        android:layout_gravity="right"
+        />
+
+</androidx.appcompat.widget.Toolbar>

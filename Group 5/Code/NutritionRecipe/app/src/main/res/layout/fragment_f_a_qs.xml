@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?> <!--    DAY LA FRAME 21-->
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".FAQSActivity">
+
+    <androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#0099FF"
+        android:elevation="4dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FAQs"
+            android:textSize="30dp"
+            android:textColor="@color/black"
+            android:layout_gravity="center"
+            />
+
+        <Button
+            android:id="@+id/arrow_faq_s"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:background="@drawable/back_arrow"
+            android:layout_gravity="left"
+            />
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <TextView
+        android:id="@+id/faqs1"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:text="1. How do I use this application in an efficient way?"
+        android:textSize="20dp"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/ans1"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Ans: We have posted a detail instruction in our facebook page. Please follow us for a detail instruction!"
+        android:textSize="20dp"
+        android:layout_marginLeft="40dp"
+        android:layout_below="@id/faqs1"
+        />
+
+    <TextView
+        android:id="@+id/faqs2"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:text="2. Should I skip breakfast?"
+        android:textSize="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@id/ans1"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/ans2"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Ans: No, you should not skip your breakfast! It will have a bad effect on your digest system and you will probably be tired!"
+        android:textSize="20dp"
+        android:layout_marginLeft="40dp"
+        android:layout_below="@id/faqs2"
+        />
+
+    <TextView
+        android:id="@+id/faqs3"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:text="3. Should I eat more?"
+        android:textSize="20dp"
+        android:layout_below="@id/ans2"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/ans3"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Ans: It depends on your BMI."
+        android:textSize="20dp"
+        android:layout_marginLeft="40dp"
+        android:layout_below="@id/faqs3"
+        />
+</RelativeLayout>

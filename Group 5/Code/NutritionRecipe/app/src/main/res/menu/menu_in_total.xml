@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/item1_in_total"
+        android:title="List Food"
+        android:icon="@drawable/ic_list_food"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/item2_in_total"
+        android:title="Calculator"
+        android:icon="@drawable/ic_calculator"
+        app:showAsAction="ifRoom"/>
+
+
+    <item
+        android:id="@+id/item3_in_total"
+        android:title="Add Food"
+        android:icon="@drawable/ic_baseline_add_food"
+        app:showAsAction="ifRoom"/>
+</menu>

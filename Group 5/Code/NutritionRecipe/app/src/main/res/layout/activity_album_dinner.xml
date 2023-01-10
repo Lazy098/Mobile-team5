@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".AlbumDinnerActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include layout="@layout/toolbar_album_dinner"
+            android:id="@+id/tool"
+            />
+
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/beans"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:src="@drawable/beans"
+            android:layout_below="@+id/tool"
+            />
+
+        <TextView
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/bean_txt"
+            android:text="BEANS"
+            android:layout_below="@+id/beans"/>
+
+        <ImageView
+            android:layout_marginTop="40dp"
+            android:layout_centerHorizontal="true"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:src="@drawable/bread"
+            android:id="@+id/bread"
+            android:layout_below="@+id/bean_txt"/>
+
+        <TextView
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/bread_txt"
+            android:text="BREAD"
+            android:layout_below="@+id/bread"/>
+
+        <ImageView
+            android:layout_marginTop="30dp"
+            android:layout_centerHorizontal="true"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:src="@drawable/meat"
+            android:id="@+id/meat"
+            android:layout_below="@+id/bread_txt"/>
+
+        <TextView
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/meat_txt"
+            android:text="MEAT"
+            android:layout_below="@+id/meat"/>
+
+        <ImageView
+            android:layout_marginTop="40dp"
+            android:layout_centerHorizontal="true"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:src="@drawable/rice"
+            android:id="@+id/rice"
+            android:layout_below="@+id/meat_txt"/>
+
+        <TextView
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rice_txt"
+            android:text="RICE"
+            android:layout_below="@+id/rice"/>
+
+        <ImageView
+            android:layout_marginTop="40dp"
+            android:layout_centerHorizontal="true"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:src="@drawable/salad"
+            android:id="@+id/salad"
+            android:layout_below="@+id/rice_txt"/>
+
+        <TextView
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/salad_txt"
+            android:text="SALAD"
+            android:layout_below="@+id/salad"/>
+
+    </RelativeLayout>
+
+
+
+</ScrollView>
